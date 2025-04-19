@@ -5,7 +5,7 @@ function Header({setPage}) {
     return(
         <header className="header">
             <div className="logo">
-                <a href="/">My Logo</a>
+                <a href="/">Gus Schwab</a>
             </div>
             <nav className="navbar">
                 <ul className="nav-links">
