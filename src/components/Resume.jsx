@@ -1,10 +1,8 @@
 export default function Resume() {
     return(
         <>
-            
-            
             <div class="container">
-                <h1>Resume</h1>
+                <h1 className="center">Resume</h1>
             
                 <p>Passionate and detail-oriented junior software developer with experience in building dynamic web applications. Seeking to leverage a strong foundation in full-stack development, problem-solving, and collaborative teamwork to contribute to a growing tech team. Eager to continue learning and developing expertise in new technologies while delivering quality software solutions.</p>
 
@@ -34,10 +32,6 @@ export default function Resume() {
 
                 <h3 class="section-title">Experience</h3>
                 <ul class="experience-list">
-                    <li><strong>Junior Software Developer Intern</strong><br></br>
-                        ABC Tech Company, City, State | June 2022 – August 2022<br></br>
-                        Collaborated with senior developers on a project to refactor the company’s internal CRM system using React and Node.js. Assisted in building new features, writing unit tests with Jest, and performing debugging tasks. Participated in daily stand-up meetings and contributed to sprint planning sessions in an Agile environment. Documented code and created internal documentation for team members.
-                    </li>
                     <li><strong>Freelance Web Developer</strong><br></br>
                         Self-Employed | January 2021 – Present<br></br>
                         Built and maintained websites for small businesses, enhancing user experience by improving performance and responsiveness across different devices.

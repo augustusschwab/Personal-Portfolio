@@ -52,6 +52,8 @@ a {
   text-decoration: none;
 }
 
+
+
 /* Header Styling */
 header {
   padding: 15px 6% 15px 0;
@@ -132,7 +134,50 @@ nav a:last-child {
   display: inline;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  /* background-color: white;  */
+}
+.title h1{
+  font-size: xx-large;
+  padding: 5px 20px;
+}
 
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Styling */
+
+.about {
+  display: flex;
+  /* margin: 10px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.about p{
+  margin: 20px;
+}
+
+.profile-pic {
+  width: 150px; /* Set the size of the circle */
+  height: 200px; /* Set the size of the circle */
+  border-radius: 50%; /* This makes the element circular */
+  border: 5px solid black; /* Black border around the circle */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+}
+
+/* Portfolio Containers */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -140,8 +185,9 @@ nav a:last-child {
 }
 
 .flex-item {
-  border: 5px solid var(--secondary);
+  border: 5px solid rgb(102, 102, 102);
   background-color: var(--primary);
+  border-radius: 10px;
   color: var(--tertiary);
   min-height: 150px;
   max-height: 150px;
@@ -217,13 +263,7 @@ nav a:last-child {
   background-position: center;
 }
 
-.profile-pic {
-  width: 150px; /* Set the size of the circle */
-  height: 150px; /* Set the size of the circle */
-  border-radius: 50%; /* This makes the element circular */
-  border: 5px solid black; /* Black border around the circle */
-  object-fit: cover; /* Ensures the image covers the area without distorting */
-}
+
 
 /* Contact Form */
 .form {
@@ -283,6 +323,58 @@ nav a:last-child {
     padding: 30px;
   }
 }
+
+/* Resume Styling */
+
+.section-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.projects-list,
+.experience-list,
+.education-list,
+.skills-list,
+.certifications-list {
+  margin-top: 10px;
+}
+
+.projects-list li,
+.experience-list li,
+.education-list li,
+.skills-list li,
+.certifications-list li {
+  padding-left: 20px;
+  position: relative;
+}
+
+.projects-list li::before,
+.experience-list li::before,
+.skills-list li::before,
+.certifications-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #000000;
+}
+
 
 /* media queries */
 
