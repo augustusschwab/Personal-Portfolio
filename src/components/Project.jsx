@@ -9,7 +9,7 @@ export default function Project({ classes, name, tech, deployed, gitHub }){
                 </a>
                 <p>{tech}</p>
                 <a href={gitHub}>
-                    <img src={gitHubLogo} className="github"></img>
+                    <img src={gitHubLogo} className="icon"></img>
                 </a>
             </div>
         </div>
