@@ -27,10 +27,9 @@ export default function Contact() {
     }
 
     return(
-        <div>
-            <h1>Contact</h1>
-
+        <div className="center">
             <form className="form" onSubmit={handleFormSubmit}>
+                <h1>Contact</h1>
                 <input
                 value={name}
                 name="name"

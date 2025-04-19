@@ -5,7 +5,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-//import './App.css'
+import './App.css'
 
 function App() {
   const [selectedPage, setPage] = useState("About")
@@ -24,14 +24,14 @@ function App() {
   };
 
   return (
-    <div>
-      <Header setPage={setPage} />
+    <>
+    <Header setPage={setPage} />
       <section className="content">
         {renderPage()}
       </section>
-      <Footer />
-    </div>
-  );
+    <Footer />
+    </>
+  )
 }
 
 export default App;
