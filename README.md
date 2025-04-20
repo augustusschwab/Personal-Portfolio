@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 ## Description
-This is a developer portfolio. The application uses REACT to render a single page application. It is deployed to Netlify.
+This is a developer portfolio. The application uses REACT to render a single-page application. It is deployed to Netlify.
 
 ## Table of Contents
   - [Installation](#installation)
@@ -12,21 +12,12 @@ This is a developer portfolio. The application uses REACT to render a single pag
   - [Questions](#questions)
   
 ## Installation
-No installation, see deployed application under usage.
+No installation, see the deployed application under usage.
 
 ## Usage
-To see a rendered version of the portfolio, visit the link below and view the screenshots from the application.
+To view a rendered version of the portfolio, click the link below.
 
-  [Deployed Application](https://book-search-engine-9ms1.onrender.com)
-
-Search Form:
- ![Search Form](Assets/Home-screen.png) 
-
-Save Book Button Example - present when user is authenticated and logged in.
-![Save Button](Assets/Save-book.png)
-
-Delete Book Button Example - present on saved books user profile.
-![Delete Button](Assets/Delete-button.png)
+  [Deployed Application](https://sweet-babka-7bef61.netlify.app/#About)
 
 ## License
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
